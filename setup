@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+
+day=$1
+
+mkdir ${day}
+touch ${day}/fake
+touch ${day}/real
+cp template.rb ${day}/main.rb
