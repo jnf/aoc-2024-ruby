@@ -2,11 +2,11 @@
 
 #external API goes down here
 module Solutions
-  def self.fake
-    data = Tools::autofetch
+  def self.p1
+
   end
 
-  def self.real
-    data = Tools::autofetch
+  def self.p2
+
   end
 end
