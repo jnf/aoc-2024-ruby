@@ -10,4 +10,8 @@ module Tools
   def self.autoraw
     File.read(File.join(DAY, TEST))
   end
+
+  def self.autogrid
+    autofetch.map(&:chars)
+  end
 end
