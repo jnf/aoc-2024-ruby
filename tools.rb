@@ -6,4 +6,8 @@ module Tools
   def self.autofetch
     enum_from_file(DAY, TEST)
   end
+
+  def self.autoraw
+    File.read(File.join(DAY, TEST))
+  end
 end
